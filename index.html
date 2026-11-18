@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A virtual exhibition exploring eight iconic gaming consoles from 1977 to 2017.">
+    <title>Gaming Through Time | Virtual Exhibition</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" id="home">
+        <div class="container header-inner">
+            <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">+</span><span>PLAY<span class="brand-accent">/</span>HISTORY<small>VIRTUAL EXHIBITION</small></span></a>
+            <nav aria-label="Main navigation" class="navigation">
+                <a href="#about">About</a><a href="#gallery">Collection</a><a href="#carousel">Carousel</a><a href="#credits">Credits</a>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-layout">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="status-dot"></span> THE VIRTUAL CONSOLE MUSEUM</p>
+                    <h1 id="hero-title">Gaming<br>through <em>time.</em></h1>
+                    <p class="hero-description">From the first cartridge-based home gaming hits to portable hybrid consoles. Explore four decades of play, design and innovation.</p>
+                    <a href="#gallery" class="primary-button">Explore the collection <span aria-hidden="true">↗</span></a>
+                    <div class="hero-facts"><div><strong>08</strong><span>EXHIBITS</span></div><div><strong>40</strong><span>YEARS OF HISTORY</span></div><div><strong>1977–17</strong><span>THE TIMELINE</span></div></div>
+                </div>
+                <div class="hero-art"><img src="images/hero-controller.svg" width="660" height="480" alt="Stylized retro game controller on a dark grid background"></div>
+            </div>
+        </section>
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <div class="container about-layout">
+                <div><p class="eyebrow section-eyebrow">01 / ABOUT THE EXHIBITION</p><h2 id="about-title">More than<br>just games.</h2></div>
+                <div class="about-copy"><p>This virtual exhibition presents eight iconic video game consoles and explores how the way we play has changed over time.</p><p>From interchangeable cartridges and portable screens to disc-based games, online communities and hybrid devices, each exhibit highlights a different step in gaming history.</p><p class="note">The years represent each system’s first release, except the NES, which is shown with its 1985 North American release. Some photographs show later revisions of the original consoles.</p></div>
+            </div>
+        </section>
+        <section class="section collection" id="gallery" aria-labelledby="collection-title">
+            <div class="container">
+                <div class="section-heading"><div><p class="eyebrow section-eyebrow">02 / THE COLLECTION</p><h2 id="collection-title">Eight icons.<br>One timeline.</h2></div><p>Explore a selection of consoles in chronological order, from the cartridge era to hybrid gaming.</p></div>
+                <div class="gallery-grid">
+                <article class="console-card" data-title="Atari 2600" data-year="1977" data-caption="Interchangeable cartridges let players enjoy different games on a single home console.">
+                    <div class="card-image tone-0"><img src="images/atari-2600.png" alt="A dark Atari console with a woodgrain front and cartridge slot." width="480" height="340" loading="lazy"><span class="exhibit-number">01</span></div>
+                    <div class="card-body"><p class="card-meta">1977 <span>·</span> Atari</p><h3>Atari 2600</h3><p>Interchangeable cartridges let players enjoy different games on a single home console.</p></div>
+                </article>
+                <article class="console-card" data-title="Nintendo Entertainment System" data-year="1985" data-caption="The NES helped revive the North American home video game market and introduced enduring game franchises.">
+                    <div class="card-image tone-1"><img src="images/nes.png" alt="A grey rectangular NES console with black controller ports." width="480" height="340" loading="lazy"><span class="exhibit-number">02</span></div>
+                    <div class="card-body"><p class="card-meta">1985 <span>·</span> Nintendo</p><h3>Nintendo Entertainment System</h3><p>The NES helped revive the North American home video game market and introduced enduring game franchises.</p></div>
+                </article>
+                <article class="console-card" data-title="Sega Mega Drive" data-year="1988" data-caption="Known as the Genesis in North America, Sega’s console brought fast-paced arcade-style games to living rooms.">
+                    <div class="card-image tone-2"><img src="images/mega-drive.png" alt="A black Sega Mega Drive with a circular top and gold 16-bit lettering." width="480" height="340" loading="lazy"><span class="exhibit-number">03</span></div>
+                    <div class="card-body"><p class="card-meta">1988 <span>·</span> Sega</p><h3>Sega Mega Drive</h3><p>Known as the Genesis in North America, Sega’s console brought fast-paced arcade-style games to living rooms.</p></div>
+                </article>
+                <article class="console-card" data-title="Game Boy" data-year="1989" data-caption="A portable design, interchangeable cartridges and a monochrome screen made handheld gaming accessible.">
+                    <div class="card-image tone-3"><img src="images/game-boy.png" alt="A grey Game Boy with a green screen and burgundy buttons." width="480" height="340" loading="lazy"><span class="exhibit-number">04</span></div>
+                    <div class="card-body"><p class="card-meta">1989 <span>·</span> Nintendo</p><h3>Game Boy</h3><p>A portable design, interchangeable cartridges and a monochrome screen made handheld gaming accessible.</p></div>
+                </article>
+                <article class="console-card" data-title="PlayStation" data-year="1994" data-caption="Sony’s first console used CD-ROMs and helped popularize 3D games for a wide audience.">
+                    <div class="card-image tone-0"><img src="images/playstation.png" alt="A grey original PlayStation with a circular disc lid and controller." width="480" height="340" loading="lazy"><span class="exhibit-number">05</span></div>
+                    <div class="card-body"><p class="card-meta">1994 <span>·</span> Sony</p><h3>PlayStation</h3><p>Sony’s first console used CD-ROMs and helped popularize 3D games for a wide audience.</p></div>
+                </article>
+                <article class="console-card" data-title="Nintendo 64" data-year="1996" data-caption="The Nintendo 64 featured four built-in controller ports and focused on real-time 3D gameplay.">
+                    <div class="card-image tone-1"><img src="images/n64.png" alt="A dark Nintendo 64 with a cartridge slot and four controller ports." width="480" height="340" loading="lazy"><span class="exhibit-number">06</span></div>
+                    <div class="card-body"><p class="card-meta">1996 <span>·</span> Nintendo</p><h3>Nintendo 64</h3><p>The Nintendo 64 featured four built-in controller ports and focused on real-time 3D gameplay.</p></div>
+                </article>
+                <article class="console-card" data-title="Xbox 360" data-year="2005" data-caption="The Xbox 360 expanded online multiplayer and digital game distribution through Xbox Live.">
+                    <div class="card-image tone-2"><img src="images/xbox-360.png" alt="A white Xbox 360 standing vertically beside its controller." width="480" height="340" loading="lazy"><span class="exhibit-number">07</span></div>
+                    <div class="card-body"><p class="card-meta">2005 <span>·</span> Microsoft</p><h3>Xbox 360</h3><p>The Xbox 360 expanded online multiplayer and digital game distribution through Xbox Live.</p></div>
+                </article>
+                <article class="console-card" data-title="Nintendo Switch" data-year="2017" data-caption="A hybrid console that can be used as a handheld device or connected to a television.">
+                    <div class="card-image tone-3"><img src="images/switch.png" alt="A Nintendo Switch with blue and red Joy-Con controllers." width="480" height="340" loading="lazy"><span class="exhibit-number">08</span></div>
+                    <div class="card-body"><p class="card-meta">2017 <span>·</span> Nintendo</p><h3>Nintendo Switch</h3><p>A hybrid console that can be used as a handheld device or connected to a television.</p></div>
+                </article>
+                </div>
+            </div>
+        </section>
+        <section class="section showcase" id="carousel" aria-labelledby="carousel-title">
+            <div class="container">
+                <div class="section-heading"><div><p class="eyebrow">03 / INTERACTIVE SHOWCASE</p><h2 id="carousel-title">A closer look.</h2></div><p>Move through the collection at your own pace, or let the slideshow bring the exhibits to you.</p></div>
+                <!-- JavaScript will update the image, caption, count and playback state. -->
+                <div class="carousel-layout" aria-label="Console slideshow" aria-roledescription="carousel">
+                    <div class="carousel-visual"><span class="slide-counter" id="carousel-counter">01 / 08</span><img id="carousel-image" src="images/atari-2600.png" alt="A dark Atari console with a woodgrain front and cartridge slot." width="480" height="340"></div>
+                    <div class="carousel-content"><div id="carousel-description" aria-live="off"><p id="carousel-year" class="eyebrow">1977 · Atari</p><h3 id="carousel-name">Atari 2600</h3><p id="carousel-caption">Interchangeable cartridges let players enjoy different games on a single home console.</p></div>
+                        <div class="carousel-controls" aria-label="Slideshow controls">
+                            <button class="control" id="previous-btn" type="button"><span aria-hidden="true">←</span> Previous</button>
+                            <button class="control control-play" id="play-pause-btn" type="button">Play</button>
+                            <button class="control" id="next-btn" type="button">Next <span aria-hidden="true">→</span></button>
+                        </div>
+                        <p class="playback-status" id="playback-status" role="status">Ready to start</p>
+                        <noscript><p class="playback-status">JavaScript is needed for the interactive slideshow.</p></noscript>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="credits" class="footer">
+        <div class="container footer-layout"><div><a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">+</span><span>PLAY<span class="brand-accent">/</span>HISTORY<small>VIRTUAL EXHIBITION</small></span></a><p>A student project exploring the history of gaming.</p></div><div><h2>Project team</h2><p>Student 1 · Student 2</p><p>© 2026 Exhibition project. Product names belong to their respective owners.</p></div><div><h2>Further information</h2><a href="https://commons.wikimedia.org/wiki/Category:Video_game_consoles">Wikimedia Commons: game consoles ↗</a><a href="#home">Back to top ↑</a><p>Console photographs supplied for this exhibition; the hero illustration was created with AI assistance. Photo credits and licenses must be added before publication.</p></div></div>
+    </footer>
+</body>
+</html>
