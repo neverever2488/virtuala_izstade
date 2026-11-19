@@ -67,6 +67,19 @@ Gads norāda sistēmas pirmo izlaišanu, izņemot NES, kam norādīta tā izlai�
 
 ## Autori un avoti
 
-- **Komanda:** Zahars Samanovs, Danila Korols *(aizstāt ar īstajiem vārdiem)*
+- **Komanda:** Zahars Samanovs, Danila Korols 
 Zahars veidoja script.js, Danila veidoja index.html un style.css
-- Konsoļu fotogrāfijas: *(pirms publicēšanas pievienot katra attēla autoru un licenci; skatīt [Wikimedia Commons: video game consoles](https://commons.wikimedia.org/wiki/Category:Video_game_consoles))*
+- Konsoļu fotogrāfijas:  
+Atari 2600 - https://commons.wikimedia.org/wiki/File:Atari-2600-Wood-4Sw-Set.jpg
+Game-Boy - https://commons.wikimedia.org/wiki/File:Game-Boy-FL.jpg
+Mega-drive -  https://commons.wikimedia.org/wiki/File:Sega-Mega-Drive-JP-Mk1-Console-Set.jpg
+Nintendo 64 - https://commons.wikimedia.org/wiki/File:Nintendo-64-wController-L.jpg
+NES(Nintendo Entertainment System) - https://commons.wikimedia.org/wiki/File:NES-Console-Set.png
+Playstation 1 - https://media.gamestop.com/i/gamestop/10122936/Sony-PlayStation-Console?w=1256\&h=664\&fmt=auto
+Nintendo Switch - https://en.wikipedia.org/wiki/Nintendo_Switch#/media/File:Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg
+Xbox 360 - https://commons.wikimedia.org/wiki/File:Xbox-360-Pro-wController.jpg
+
+
+- Papildu informacija:
+
+[Wikimedia Commons: video game consoles](https://commons.wikimedia.org/wiki/Category:Video_game_consoles)*
