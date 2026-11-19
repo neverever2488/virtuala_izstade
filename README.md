@@ -67,5 +67,6 @@ Gads norāda sistēmas pirmo izlaišanu, izņemot NES, kam norādīta tā izlai�
 
 ## Autori un avoti
 
-- **Komanda:** Zahars, Danila *(aizstāt ar īstajiem vārdiem)*
+- **Komanda:** Zahars Samanovs, Danila Korols *(aizstāt ar īstajiem vārdiem)*
+Zahars veidoja script.js, Danila veidoja index.html un style.css
 - Konsoļu fotogrāfijas: *(pirms publicēšanas pievienot katra attēla autoru un licenci; skatīt [Wikimedia Commons: video game consoles](https://commons.wikimedia.org/wiki/Category:Video_game_consoles))*
